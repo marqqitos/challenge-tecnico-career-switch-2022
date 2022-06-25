@@ -38,6 +38,15 @@ namespace RiddleSolver
 
         }
 
+        private static IConfigurationRoot GetConfiguration()
+        {
+            var builder = new ConfigurationBuilder()
+                            .SetBasePath(Directory.GetCurrentDirectory())
+                            .AddJsonFile("config.json", optional: false, reloadOnChange: true);
+
+            return builder.Build();
+        }
+
         private static ServiceProvider ConfigureServiceProvider(ServiceCollection services)
         {
             IConfigurationRoot config = GetConfiguration();
@@ -57,15 +66,6 @@ namespace RiddleSolver
             services.AddScoped<IRiddleSolverService, RiddleSolverService>();
 
             return services.BuildServiceProvider();
-        }
-
-        private static IConfigurationRoot GetConfiguration()
-        {
-            var builder = new ConfigurationBuilder()
-                            .SetBasePath(Directory.GetCurrentDirectory())
-                            .AddJsonFile("config.json", optional: false, reloadOnChange: true);
-
-            return builder.Build();
         }
     }
 }
