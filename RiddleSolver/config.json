@@ -1,0 +1,5 @@
+{
+  "URLBaseAddress": "https://rooftop-career-switch.herokuapp.com/",
+  "PuzzleWordsServiceHttpClient": "PuzzleWordsServiceClient",
+  "token": "token"
+}

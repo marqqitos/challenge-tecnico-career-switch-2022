@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiddleSolver", "RiddleSolver.csproj", "{F094D2D3-B487-4D6E-9345-F8912C2B24B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiddleSolverTests", "..\RiddleSolverTests\RiddleSolverTests.csproj", "{21052CF3-B369-4C44-9BC3-D0B2BD9EB717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F094D2D3-B487-4D6E-9345-F8912C2B24B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F094D2D3-B487-4D6E-9345-F8912C2B24B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F094D2D3-B487-4D6E-9345-F8912C2B24B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F094D2D3-B487-4D6E-9345-F8912C2B24B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21052CF3-B369-4C44-9BC3-D0B2BD9EB717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21052CF3-B369-4C44-9BC3-D0B2BD9EB717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21052CF3-B369-4C44-9BC3-D0B2BD9EB717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21052CF3-B369-4C44-9BC3-D0B2BD9EB717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94F7BB59-38EB-4B09-B040-85464A530E69}
+	EndGlobalSection
+EndGlobal
